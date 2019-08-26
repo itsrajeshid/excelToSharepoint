@@ -1,0 +1,113 @@
+TestcaseName,ExpectedResults,Steps,Status,Priority,Testcasetype,TestCaseGroup,SystemTestReleaseDate,RelatedRequirements
+IMMR IMWT PH2 - Access Location - IMMR Home Page - Supervisor Productivity  Dashboard Report  ,"The "" Supervisor Productivityÿ Dashboard Reportÿ ""ÿ details should display under the below sections when we poerform an action according to the section ?title .
+? My Recently Viewedÿ
+? My Frequently Viewedÿ
+? Statewide Frequently Viewedÿ
+? Newly Added?
+
+","
+1). Log into IMMR reports through Sys Gateway page.ÿ
+2). Verify the below tabs/sectionÿ in IMMR Home Page ;and each section should display the ""ÿSupervisor Productivityÿ Dashboard Reportÿ ""ÿ detailsÿaccording to the section?title ;andperform a action to see the details.
+? My Recently Viewedÿ
+? My Frequently Viewedÿ
+? Statewide Frequently Viewedÿ
+? Newly Added
+
+
+NOTES:
+
+Existing metadata elements should be updated for the dashboards to be displayed withinÿIMMR Home Page.Noÿcustomizationÿshouldÿbe made to theÿIMMR Home Page for this project.
+
+
+
+",Passed,High,Change/Enhancements Testing,Reports(IMMR) Layout,6/24/2019,"IWTTP2-SREQ-6, IWTTP2-SREQ-7"
+IMMR IMWT PH2 - Access Location - IMMR Search Tool - Supervisor and Worker Productivity  Dashboard Reports ,"
+1).Supervisor Productivity TRacking Dasboard:
+
+
+?The magnifying glass icon navigates users to the Search Tool
+?The Search Tool contains prompts to allow users to navigate to the Supervisor Productivity Tracking Dashboardÿ
+?After entering the desired prompts, Supervisor Productivity Tracking Dashboard View is displayed
+
+
+
+2).Worker Productivity Tracking Report
+
+
+??The magnifying glass icon navigates users to the Search Tool
+?The Search Tool contains prompts to allow users to navigate to the Worker Productivity Tracking Dashboardÿ
+?After entering the desired prompts, Worker Productivity Tracking Dashboard is displayed
+
+?
+
+","
+
+1). Log into IMMR Reports through SYS Gateway page to access Suprvisor Productivity Tracking Report , and to access the Worker Dashboard report log it through the Webi.
+2).ÿThe magnifying glass icon willÿnavigates users to the Search Tool.ÿ ÿ?
+
+3). Existing metadata elements should be updated for the dashboardsÿ and it should? be displayed within the IMMR Search Tool.
+3#A).ÿ ÿ Existing audit data elements should be stored for the dashboards to be displayed within IMMR Usage Tracking.
+3#B).ÿÿ ÿ No customization should be made to the IMMR Usage Tracking for this project.?
+4). The below reports should be viewable according their associated levels and default values.
+4#A) :Supervisor Productivity Tracking Dashboard : Summary , Details , Current Month Time Period ,Consortium?ÿ
+4#B): Worker Productivity Tracking Dashboard : Summary , Details , Current Month Time Period ,Consortium?ÿ?
+
+
+
+
+
+
+
+
+",Passed,High,Change/Enhancements Testing,Reports(IMMR) Layout,6/24/2019,IWTTP2-SREQ-6
+IMMR IMWT PH2 - Access Location - Info view (Traditional DHS Folder structure) - Supervisor and Worker Productivity  Dashboard Reports  ,"1. The both Supervisor and Worker Productivity dashboard Reports will be stored as mentioned in DUV/Requirments 'ÿand itÿshould be accessibleÿto login users as per security.
+","
+1). Log into IMMR Reports through IMMR or Webiÿ
+2). The selectedÿSupervisor Productivity Tracking Dashboard will be stored in below location.
+> This dashboard will be located at DHS->IM Management Reports->Supervisor Reports->Supervisor Productivity Tracking Dashboard
+
+3). The selectedÿWorkloadÿProductivity Tracking Dashboard? will be stored in below location.?
+> This report will be located at Enrollment Reports >ÿ
+> IM Consortium Reports, Application Reports, Renewal Reports, Document Management Reports ? ECF Workflow Reports, SMRF Reports, Discrepancy Reports, Change Reports, Potential Errors Reports, Verification Due Reports
+
+
+?
+
+",Passed,High,Change/Enhancements Testing,Reports(IMMR) Layout,6/24/2019,IWTTP2-SREQ-6
+IMMR IMWT PH2 - Layout and Checklist validation -Supervisor Productivity  Dashboard Summary Report ,"
+Make sure validate all the below sections details with provided data it should meet theÿDUV/ Requirment details.Access Locationÿ ÿÿDetailed Criteriaÿ ÿViews and System DefaultsÿDashboard Sample Viewsÿ ÿScreenshot/Customer View ÿ(Worker Comparison View)ÿÿScreenshot/Customer View ÿ(Team Comparison View)ÿ ÿ ÿÿScreenshot/Customer View ÿ(Workload Type Additional View)ÿ ÿ ÿ ÿScreenshot/Customer View ÿ(Detail view)ÿÿOther Viewsÿÿÿÿÿÿÿÿÿÿ (Worker/Team Comparison View)Dashboard Layoutÿ ÿ ÿ ÿ ÿ ÿ ÿ ÿNavigationÿ ÿ ÿ ÿ ÿ ÿ ÿDrilldown Links/Additional Viewsÿ ÿ ÿDynamic Layoutÿ ÿ
+Dynamic Time Period Change based on User Promptsÿ ÿWorkload Type Additional Viewÿ ÿ ÿ ÿÿProductivity by Workload Type/Workload Sub-Typeÿ ÿ ÿProductivity Trendÿ ÿ ÿ ÿ ÿ ÿ ÿÿData Frequencyÿ ÿÿDashboard Fields Definitionsÿ ÿ ÿ ÿ ÿ ÿ ÿUser Promptsÿ ÿ ÿ ÿMouseoverÿ ÿ ÿ ÿ ÿ ÿÿ?
+Printing Specificationsÿ ÿ ÿ ÿ ÿSecurityÿDashboard Metadataÿ ÿ ÿ ÿ ÿ ÿAppendixÿ ÿ ÿ ÿ ÿ ÿ ÿÿData Flowÿ ÿ ÿ ÿ ÿ ÿ ÿÿTechnical Specificationÿ ÿ ÿ ÿ ÿ??
+
+
+","
+1).Dashboard/Report name/title displays correctly in DHS_SYS ? CARES ->IM Management Reports folder in Launch Pad.
+2).Dashboard/Report general properties should have the brief description and search keywords.(To view properties right click on the dashboard/report in the location)
+3).Validate Dashboard/Report access location as specified in the DUV section 2
+4).Dashboard/Report should display a header containing the Header Image and title
+5).Validate User prompts as specified in the DUV section 12 (to view user prompts click on ?Refresh buttonÿ ÿon the top panel)
+6).Dashboard/Report should display Help iconÿ ÿon the top right corner
+7#A).Validate Drill down link/Additional Views as specified in the DUV section 8
+7#B).Drill down links should display data in a new window
+7#C).?Additional View links should dynamically display data in the same viewÿÿ
+
+
+8).Dashboard/Report should display ?Last Database Refresh Date? on the top right corner below the Help icon
+9).Validate Navigation as specified in the DUV section 7
+10).Validate Dynamic Layout as specified in the DUV section 9
+11).Validate Dashboard/Report Layout as specified in the DUV section 5 and section 6
+12).Validate Mouseover display text as specified in the DUV section 13
+13).All data text should be left aligned and numbers and percentages should be right aligned in their respective columns
+14).Dashboard/Report should display elements without any overlapping when viewed in Quick Display, Page, or PDF Modes.
+15#A).ÿ All reports should be exportable to excel and PDF versions using export tool barÿ ÿ.ÿ
+15#B).Dashboard/Report should display elements without any overlapping when viewed in the PDF mode.
+15#C).Layout testing is not required in Excel mode.
+16).ÿValidate Printing Specifications as specified in the DUV section 14
+
+
+
+
+
+?
+
+",Passed,High,Change/Enhancements Testing,Reports(IMMR) Layout,6/24/2019,IWTTP2-SREQ-6
