@@ -161,6 +161,8 @@ Function setupOKBtnClick(){
                         # TODO - Set Test Case Group like this. separate by comma
                         #$d = "Reports(IMMR) Layout", "Reports(IMMR) Functionality"
                         #Add-PnPListItem -List "Demo List" -Values @{"MultiUserField"="user1@domain.com","user2@domain.com"}
+                        
+                        
                         #Adds a new list item to the "Demo List" and sets the user field called MultiUserField to 2 users. 
                         #Separate multiple users with a comma.
 
