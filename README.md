@@ -1,7 +1,8 @@
 # excelToSharepoint
 Import Systems test cases into CARES connect from excel/csv file
 
-1.
+
+# Header requirements for the Excel file
 The Excel/csv document must have these coloums with exact names(no spaces, but not case sentitive), and not contain other columns
 1.	TestCaseName
 2.	ExpectedResults
@@ -15,6 +16,7 @@ The Excel/csv document must have these coloums with exact names(no spaces, but n
 
 
 
+# Steps to copy cases
 2.	Save the Excel document as a .csv file somewhere on your local drive.
 3.  Open the Dialog to import the Systems Test cases into CARES Connect.
 3.	Enter your CARES Connect username and password. (same as email credentials) include @dhs.
