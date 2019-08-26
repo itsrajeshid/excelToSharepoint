@@ -26,3 +26,9 @@ The Excel/csv document must have these coloums with exact names(no spaces, but n
 7.  Click OK.
 8.  Copying the test cases will take some time.
 
+# Set Desktop short cut
+1. Right click and select 'create new short cut'
+2. copyt this into the dialog textbox. Make sure your file path matches your local filepath
+    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -ExecutionPolicy Bypass -windowstyle Hidden -File        C:\excelToSharepoint\powershellScript\excelToSharepointList.ps1
+3. Enter the name and click Finish.
+    
